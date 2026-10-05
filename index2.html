@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: gray;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        }
+    .navbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: blue;
+        color: white;
+        padding: 20px 40px;
+    }
+    .nav-links a{
+        color: white;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+    .main-container{
+        display: flex;
+        gap: 20px;
+        padding: 20px;
+        flex: 1;
+    }
+    .content-body{
+        flex:3;
+        padding: 20px;
+        background: white;
+        border-radius: 5px;
+    }
+    .sidebar-left, .sidebar-right{
+        flex:1;
+        padding: 20px;
+        background: blueviolet;
+        border-radius: 5px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #333;
+        color: white;
+        padding: 20px;
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <h1>My Website</h1>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="main-container">
+        <p>Welcome to my website!</p>
+    </div>
+    <div class="footer">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </div>
+</body>
+</html>
