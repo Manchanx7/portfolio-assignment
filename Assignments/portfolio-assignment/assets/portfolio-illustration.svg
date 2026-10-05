@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 690" role="img" aria-labelledby="title desc">
+  <title id="title">A workspace for learning and building</title>
+  <desc id="desc">Abstract browser panel with code symbols, a warm sun, and a leafy plant.</desc>
+  <rect width="620" height="690" rx="250" fill="#e4ebe2"/>
+  <circle cx="467" cy="145" r="78" fill="#e98e66"/>
+  <path d="M0 494c112-48 191-37 297 18s205 40 323-26v204H0z" fill="#c4d9cd"/>
+  <path d="M0 558c137-39 232 15 335 37s180-6 285-53v148H0z" fill="#9dbfb0"/>
+  <rect x="92" y="194" width="418" height="290" rx="23" fill="#fffefa" stroke="#17333a" stroke-width="8"/>
+  <path d="M96 218a20 20 0 0 1 20-20h370a20 20 0 0 1 20 20v35H96z" fill="#17333a"/>
+  <circle cx="126" cy="225" r="6" fill="#e98e66"/>
+  <circle cx="148" cy="225" r="6" fill="#dfc27a"/>
+  <circle cx="170" cy="225" r="6" fill="#8db9a5"/>
+  <rect x="130" y="287" width="145" height="12" rx="6" fill="#cad8d0"/>
+  <rect x="130" y="318" width="232" height="17" rx="8" fill="#17333a"/>
+  <rect x="130" y="353" width="195" height="11" rx="5" fill="#93aaa2"/>
+  <rect x="130" y="379" width="214" height="11" rx="5" fill="#93aaa2"/>
+  <rect x="130" y="416" width="98" height="36" rx="18" fill="#16786d"/>
+  <path d="M157 434h36" stroke="#fffefa" stroke-width="5" stroke-linecap="round"/>
+  <path d="m350 328 19-17m-19 17 19 17m37-34-19 17 19 17m16-34h35" fill="none" stroke="#e98e66" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M454 536v95m-41 0h82" fill="none" stroke="#17333a" stroke-width="11" stroke-linecap="round"/>
+  <path d="M454 565c-46-24-41-60-7-67 13 25 13 43 7 67Zm3-21c6-42 31-55 55-40-4 29-22 43-55 40Zm-6 42c-41-9-52-37-31-56 24 10 35 27 31 56Zm7-21c14-29 39-34 54-15-10 21-27 28-54 15Z" fill="#397766"/>
+  <path d="M127 526c-17-36-9-57 18-65 15 26 10 47-18 65Zm8-7c5-33 25-47 49-37-5 27-20 39-49 37Z" fill="#e98e66"/>
+</svg>

@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A student portfolio featuring web development skills, academic projects, and learning goals.">
+  <meta name="theme-color" content="#f4f2ec">
+  <title>Student Portfolio | BSc CSIT</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Shared site navigation -->
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="wordmark" href="#home" aria-label="Portfolio home">
+        <span class="wordmark-mark" aria-hidden="true">P</span>
+        <span>Portfolio<span class="wordmark-period">.</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main portfolio content, grouped into named semantic sections -->
+  <main id="main">
+    <section class="hero page-shell" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot" aria-hidden="true"></span> BSc CSIT student · IT</p>
+        <h1 id="hero-title">Curious about code.<br><span>Focused on useful</span><br>experiences.</h1>
+        <p class="hero-intro">I’m an IT student building a strong foundation in web development, databases, and the tools that help ideas become practical projects.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#about">A little about me <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-meta" aria-label="Areas of interest">
+          <span>Web development</span><span>Databases</span><span>Learning by building</span>
+        </div>
+      </div>
+      <figure class="hero-art">
+        <img src="assets/portfolio-illustration.svg" alt="Abstract illustration of a browser window, code symbols, and a plant">
+        <figcaption><span>Learning in public</span><span>01 / 04</span></figcaption>
+      </figure>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to About"><span aria-hidden="true">↓</span></a>
+    </section>
+
+    <!-- Background and learning goals -->
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="page-shell about-grid">
+        <div class="section-heading">
+          <p class="eyebrow">01 — About</p>
+          <h2 id="about-title">Learning the craft,<br>one project at a time.</h2>
+        </div>
+        <div class="about-copy">
+          <p class="lead">I’m pursuing a Bachelor of Science in Computer Science and Information Technology (BSc CSIT), with a growing interest in creating clear, accessible web experiences.</p>
+          <p>My coursework gives me opportunities to explore front-end development and database concepts. I use small academic projects to practice turning requirements into organized pages, readable code, and useful information.</p>
+          <div class="about-note"><span class="note-icon" aria-hidden="true">✳</span><p><strong>Currently building:</strong> practical skills in HTML, CSS, JavaScript, SQL, and collaborative version control.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Current technical toolkit -->
+    <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+      <div class="page-shell">
+        <div class="section-heading section-heading-wide">
+          <div><p class="eyebrow">02 — Toolkit</p><h2 id="skills-title">Tools I’m working with.</h2></div>
+          <p class="section-aside">A growing toolkit for building, organizing, and sharing ideas.</p>
+        </div>
+        <ul class="skill-grid">
+          <li class="skill-card"><span class="skill-index">01</span><span class="skill-icon" aria-hidden="true">&lt;/&gt;</span><h3>HTML</h3><p>Semantic page structure</p></li>
+          <li class="skill-card"><span class="skill-index">02</span><span class="skill-icon" aria-hidden="true">✳</span><h3>CSS</h3><p>Layouts and responsive styling</p></li>
+          <li class="skill-card"><span class="skill-index">03</span><span class="skill-icon" aria-hidden="true">JS</span><h3>JavaScript</h3><p>Programming fundamentals</p></li>
+          <li class="skill-card"><span class="skill-index">04</span><span class="skill-icon" aria-hidden="true">C</span><h3>C</h3><p>Core programming concepts</p></li>
+          <li class="skill-card"><span class="skill-index">05</span><span class="skill-icon" aria-hidden="true">▤</span><h3>MySQL</h3><p>Relational data and queries</p></li>
+          <li class="skill-card"><span class="skill-index">06</span><span class="skill-icon" aria-hidden="true">⌘</span><h3>Git &amp; GitHub</h3><p>Version control and sharing</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Academic project summaries -->
+    <section class="section section-projects" id="projects" aria-labelledby="projects-title">
+      <div class="page-shell">
+        <div class="section-heading section-heading-wide">
+          <div><p class="eyebrow">03 — Selected work</p><h2 id="projects-title">Ideas made tangible.</h2></div>
+          <p class="section-aside">Academic projects that connect coursework with practical problem-solving.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-card-hospital">
+            <div class="project-visual hospital-visual" aria-hidden="true"><span class="visual-orbit orbit-one"></span><span class="visual-orbit orbit-two"></span><span class="hospital-cross">+</span><span class="visual-label">care / access</span></div>
+            <div class="project-content"><p class="project-kicker">Web design · Academic project</p><h3>Hospital Services Website</h3><p>A website concept for presenting hospital services in a clear, approachable way. The project highlights page structure, navigation, and responsive styling.</p><ul class="tag-list" aria-label="Technologies"><li>HTML</li><li>CSS</li><li>Responsive layout</li></ul></div>
+          </article>
+          <article class="project-card project-card-library">
+            <div class="project-visual library-visual" aria-hidden="true"><span class="book book-one"></span><span class="book book-two"></span><span class="book book-three"></span><span class="visual-label">catalog / connect</span></div>
+            <div class="project-content"><p class="project-kicker">Database design · Academic project</p><h3>Library Database</h3><p>A database project exploring how library records can be organized and related. It connects table design with practical SQL queries.</p><ul class="tag-list" aria-label="Technologies"><li>MySQL</li><li>Data modeling</li><li>SQL</li></ul></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Replace the example email address before publishing -->
+    <section class="contact-band" id="contact" aria-labelledby="contact-title">
+      <div class="page-shell contact-inner">
+        <div><p class="eyebrow eyebrow-light">04 — Get in touch</p><h2 id="contact-title">Let’s keep learning<br>and building.</h2></div>
+        <div class="contact-action"><p>I’m always glad to connect around student projects, technology, and new ideas.</p><a class="button button-light" href="mailto:your.email@example.com">Add your email <span aria-hidden="true">↗</span></a><span class="contact-hint">Update this link with your preferred contact address.</span></div>
+        <span class="contact-spark" aria-hidden="true">✳</span>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell footer-inner"><a class="wordmark footer-wordmark" href="#home"><span class="wordmark-mark" aria-hidden="true">P</span><span>Portfolio<span class="wordmark-period">.</span></span></a><p>Designed and built as a student portfolio project.</p><a class="back-top" href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
